@@ -25,6 +25,12 @@ fetch(breedUrl)
         })
     }
 })
+function filterBreeeds(){
+    let brid = document.getElementById("breed-dropdown")
+    brid.addEventListener('click', () => {
+        console.log(brid.value)
+    })
+}
 
 
 
